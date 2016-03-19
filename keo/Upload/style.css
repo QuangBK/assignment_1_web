@@ -50,10 +50,13 @@ table tr td:last-child {
     margin-left:2px;
 }
 
-#header{
+#header_1{
   float: bottom;
 }
 
+#header_2{
+  float: bottom;
+}
 .nonedis{
   margin:0%;
   padding: 0%;
@@ -98,6 +101,9 @@ table tr td:last-child {
     margin: 0;
   }
 #headerIcon{
+  padding-left: 9%;
+}
+#headerIcon_1{
   padding-left: 9%;
 }
  #tribeo{
