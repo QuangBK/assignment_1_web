@@ -3,16 +3,16 @@
 <!-- BEGIN HEAD -->
 <header>
 	<meta charset="utf-8" />
-	<title>Login Form</title>
+	<title>Sign In or Sign Up</title>
 	<meta content="width=device-width, initial-scale=1.0" name="viewport" />
 	<meta content="" name="description" />
 	<meta content="" name="author" />
 	<!-- BEGIN GLOBAL MANDATORY STYLES -->
-	<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-	<link href="assets/plugins/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
-	<link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-	<link href="assets/css/style-metro.css" rel="stylesheet" type="text/css"/>
-	<link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
+	<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/> <!--Font chu dam-->
+	<link href="assets/plugins/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/> 
+	<link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/> <!--image bieu tuong nut-->
+	<link href="assets/css/style-metro.css" rel="stylesheet" type="text/css"/> <!--Giao dien metro-->
+	<link href="assets/css/style.css" rel="stylesheet" type="text/css"/> <!--style-->
 	<link href="assets/css/style-responsive.css" rel="stylesheet" type="text/css"/>
 	<link href="assets/css/themes/default.css" rel="stylesheet" type="text/css" id="style_color"/>
 	<link href="assets/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css"/>
@@ -22,13 +22,18 @@
 	<link href="assets/css/pages/login-soft.css" rel="stylesheet" type="text/css"/>
 	<!-- END PAGE LEVEL STYLES -->
 	<link rel="shortcut icon" href="favicon.ico" />
+
+	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+	<div style=""> <h1 style="text-shadow: 2px 2px 5px gray; text-align: center;color: white">SLIDESHARE</h1></div>
 </header>
 
 <body class="login">
+
 	<!-- BEGIN LOGO -->
 	<div class="logo">
 		<!-- PUT YOUR LOGO HERE -->
-		<div style=""> <h1 style="text-shadow: 2px 2px 5px red; text-align: center;">SHARE TEMPLATES</h1></div>
+		<div style=""> <h1 style="text-shadow: 2px 2px 5px gray; text-align: center; color: white">Make your professional life</h1></div>
 	</div>
 
 	
@@ -37,7 +42,7 @@
 	<div class="content">
 		<!-- BEGIN LOGIN FORM -->
 		<form class="form-vertical login-form" action="" method="post">
-			<h3 class="form-title">Login to your account</h3>
+			<h3 class="form-title" style="text-align: center;">Login to your account</h3>
 			<div class="alert alert-error hide">
 				<button class="close" data-dismiss="alert"></button>
 				<span>Enter any username and password.</span>
@@ -69,6 +74,32 @@
 				Login <i class="m-icon-swapright m-icon-white"></i>
 				</button>            
 			</div>
+
+
+
+	<div class="omb_login">
+    	
+		<div class="row omb_row-sm-offset-3 omb_socialButtons">
+    	    <div class="col-xs-4 col-sm-2" style="margin-left: 30px">
+		        <a href="#" class="btn btn-lg btn-block omb_btn-facebook">
+			        <i class="fa fa-facebook visible-xs"></i>
+			        <span class="hidden-xs">Login with Facebook</span>
+		        </a>
+	        </div>
+        	
+        	<div class="col-xs-4 col-sm-2" style="margin-left: 30px">
+		        <a href="#" class="btn btn-lg btn-block omb_btn-google">
+			        <i class="fa fa-google-plus visible-xs"></i>
+			        <span class="hidden-xs"> Login with Google+</span>
+		        </a>
+	        </div>	
+		</div>
+  	
+	</div>
+
+
+
+
 			<div class="forget-password">
 				<h4>Forgot your password ?</h4>
 				<p>
@@ -86,7 +117,7 @@
 		<!-- END LOGIN FORM -->        
 		<!-- BEGIN FORGOT PASSWORD FORM -->
 		<form class="form-vertical forget-form" action="index.html" method="post">
-			<h3 >Forget Password ?</h3>
+			<h3 style="text-align: center;">Forget Password ?</h3>
 			<p>Enter your e-mail address below to reset your password.</p>
 			<div class="control-group">
 				<div class="controls">
@@ -108,7 +139,7 @@
 		<!-- END FORGOT PASSWORD FORM -->
 		<!-- BEGIN REGISTRATION FORM -->
 		<form class="form-vertical register-form" action="index.html" method="post">
-			<h3 >Sign Up</h3>
+			<h3 style="text-align: center;">Sign Up</h3>
 			<p>Enter your account details below:</p>
 			<div class="control-group">
 				<!--ie8, ie9 does not support html5 placeholder, so we just show field title for that-->
@@ -147,8 +178,33 @@
 					</div>
 				</div>
 			</div>
+
+
+
+			<div class="omb_login">
+    	
+		<div class="row omb_row-sm-offset-3 omb_socialButtons">
+    	    <div class="col-xs-4 col-sm-2" style="margin-left: 30px">
+		        <a href="#" class="btn btn-lg btn-block omb_btn-facebook">
+			        <i class="fa fa-facebook visible-xs"></i>
+			        <span class="hidden-xs">Login with Facebook</span>
+		        </a>
+	        </div>
+        	
+        	<div class="col-xs-4 col-sm-2" style="margin-left: 30px">
+		        <a href="#" class="btn btn-lg btn-block omb_btn-google">
+			        <i class="fa fa-google-plus visible-xs"></i>
+			        <span class="hidden-xs"> Login with Google+</span>
+		        </a>
+	        </div>	
+		</div>
+  	
+	</div>
+
+
+
 			<div class="control-group">
-				<div class="controls">
+				<div class="controls" style="padding-left: 20px">
 					<label class="checkbox">
 					<input type="checkbox" name="tnc"/> I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>
 					</label>  
@@ -156,8 +212,8 @@
 				</div>
 			</div>
 			<div class="form-actions">
-				<button id="register-back-btn" type="button" class="btn">
-				<i class="m-icon-swapleft"></i>  Back
+				<button id="register-back-btn" type="button" class="btn" style="padding-left: 20px">
+				<i class="m-icon-swapleft"></i> Back
 				</button>
 				<button type="submit" id="register-submit-btn" class="btn green pull-right">
 				Sign Up <i class="m-icon-swapright m-icon-white"></i>
@@ -169,7 +225,7 @@
 	<!-- END LOGIN -->
 	<!-- BEGIN COPYRIGHT -->
 	<div class="copyright">
-		2016 &copy; <a href="http://www.sharetemplates.com/">Share Templates</a> Login Form
+		2016 &copy; <a href="http://www.sharetemplates.com/">SlideShare</a>
 	</div>
 	<!-- END COPYRIGHT -->
 	<!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->

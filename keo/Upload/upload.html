@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<!-- release v4.3.1, copyright 2014 - 2015 Kartik Visweswaran -->
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<title>Upload to SlideShare</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script src="action.js"></script>
+
+</head>
+<body>
+
+	<div id="header">
+		<nav class="navbar navbar-inverse nonedis visible-xs" id="navadd1">
+			<div class="container-fluid" id="header">
+	    		<div class="navbar-header" id="headerIcon">
+
+		    	 	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bellow1">
+			        	<span class="icon-bar"></span>
+			        	<span class="icon-bar"></span>
+			        	<span class="icon-bar"></span>
+			        	<span class="icon-bar"></span>
+		       		</button>
+
+
+		      		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		        		<span class="glyphicon glyphicon-user" aria-hidden="true"></span>                    
+		      		</button>
+
+		        	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#ss">
+		        		<span class="glyphicon glyphicon-search" aria-hidden="true"></span> 
+		        	</button>
+
+		      		<img class="navbar-brand" src="image/Nike.jpg">
+		      		<a href="#" class="navbar-brand" style="padding-right: 0; padding-left: 7px;" >SlideShare </a>
+	   		 	</div>
+
+    			<div class="collapse navbar-collapse" id="ss">
+    	 			<div class="input-group stylish-input-group" id="search1">
+                    	<input type="text" class="form-control"  placeholder="Search" >
+                   		 <span class="input-group-addon">
+	                        <button type="submit">
+	                            <span class="glyphicon glyphicon-search"></span>
+	                        </button>  
+                    	</span>
+                	</div>
+    			</div>
+    	
+    			<div class="collapse navbar-collapse" id="myNavbar">
+    	
+
+				     <ul class="nav navbar-nav navbar-right" style="padding-right: 5%; display: block">
+				        <li><a href="#">Up load</a></li>
+				        <li><a href="#">Log in</a></li>
+				        <li><a href="#">Sign up</a></li>
+				     </ul>
+    			</div>
+  			</div>
+
+			 <div id="bellow1">
+			 	
+			   <ul class="nav navbar-nav navbar-right" style="padding-left: 2%; display: block">
+			         <li><a href="#">Home</a></li>
+			          <li class="dropdown">
+			              <a href="#" class="dropdown-toggle" data-toggle="dropdown">More Topics <b class="caret"></b></a>
+			              <ul class="dropdown-menu">
+			              	<li><a href="#">Top Rate</a></li>
+			        		<li><a href="#">Top Download</a></li>
+			       			<li class="divider"></li>
+			                <li><a href="#">Technology</a></li>
+			                <li><a href="#">Mobile</a></li>
+			                <li><a href="#">Photograph</a></li>
+			                <li class="divider"></li>
+			                <li><a href="#">Food</a></li>
+			                <li class="divider"></li>
+			                <li><a href="#">Business</a></li>
+			              </ul>
+			        </li>        
+			    </ul>
+
+			 </div>
+		</nav>
+
+		<nav class="navbar navbar-inverse nonedis hidden-xs" id="navadd">
+		<div class="container-fluid" id="header">
+		    <div class="navbar-header" id="headerIcon">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		        <span class="glyphicon glyphicon-flash" aria-hidden="true"></span>                    
+		      </button>
+		       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bellow2">
+		        <span class="glyphicon glyphicon-flash" aria-hidden="true"></span>                    
+		      </button>
+		      <img class="navbar-brand" src="image/Nike.jpg">
+		      <a href="#" class="navbar-brand"> SlideShare |</a>
+		    </div>
+		    
+		    <div class="collapse navbar-collapse" id="myNavbar">
+		    	
+		               <div class="input-group stylish-input-group" id="search">
+		                    <input type="text" class="form-control"  placeholder="Search" >
+		                    <span class="input-group-addon">
+		                        <button type="submit">
+		                            <span class="glyphicon glyphicon-search"></span>
+		                        </button>  
+		                    </span>
+		                </div>
+		      
+		      <ul class="nav navbar-nav navbar-right" style="padding-right: 5%; display: block">
+		        <li><button type="button" class="btn btn-danger" style="margin-top: 10%">Upload</button></li>
+		        <li><a href="#">Log in</a></li>
+		        <li><a href="#">Sign up</a></li>
+		      </ul>
+
+		    </div>
+		   
+		  </div>
+
+		 <div id="bellow2">
+		 	<div class="collapse navbar-collapse">
+		      <ul class="nav navbar-nav navbar-left" style="padding-right: 5%; display: block">
+		        <li><a href="#">Home</a></li>
+		        <li><a href="#">Top Rate</a></li>
+		        <li><a href="#">Top Download</a></li>
+		        <li><a href="#">Technology</a></li>
+		         <li class="dropdown">
+		              <a href="#" class="dropdown-toggle" data-toggle="dropdown">More Topics <b class="caret"></b></a>
+		              <ul class="dropdown-menu">
+		                <li><a href="#">Technology</a></li>
+		                <li><a href="#">Mobile</a></li>
+		                <li><a href="#">Photograph</a></li>
+		                <li class="divider"></li>
+		                <li><a href="#">Food</a></li>
+		                <li class="divider"></li>
+		                <li><a href="#">Business</a></li>
+		              </ul>
+		        </li>
+		      </ul>
+		    </div>
+		 </div>
+		</nav>
+	</div>
+
+	<div class="container"> <br />
+
+	    <div class="row">
+	    	<div class="col-md-6 col-md-offset-3" style="position: relative; margin-top: 100px">
+				<div class="panel panel-default">
+					<div class="panel-heading"><strong> Upload files </strong></div>
+					<div class="panel-body">
+	                    <div class="form-group">
+	                        <label for="document-name">Name of Document:</label>
+	                        <input type="text" class="form-control" id="document-name" placeholder="">
+	                      </div>
+						<div class="input-group image-preview">
+							<input placeholder="" type="text" class="form-control image-preview-filename" disabled="disabled">
+							<!-- don't give a name === doesn't send on POST/GET --> 
+							<span class="input-group-btn"> 
+							<!-- image-preview-clear button -->
+							<button type="button" class="btn btn-default image-preview-clear"> <span class="glyphicon glyphicon-remove"></span> Clear </button>
+							<!-- image-preview-input -->
+							<div class="btn btn-default image-preview-input"> <span class="glyphicon glyphicon-folder-open"></span> <span class="image-preview-input-title">Browse</span>
+								<input type="file" accept="image/png, image/jpeg, image/gif, image/pdf" name="input-file-preview"/>
+								<!-- rename it --> 
+							</div>
+							<button type="button" class="btn btn-labeled btn-default"> <span class="btn-label"><i class="glyphicon glyphicon-upload"></i> </span>Upload</button>
+							</span> </div>
+						<!-- /input-group image-preview [TO HERE]--> 
+						
+						<br />
+						
+						<!-- Drop Zone -->
+						<div class="upload-drop-zone" id="drop-zone"> Or drag and drop files here </div>
+						<br />
+						<!-- Progress Bar -->
+						<div class="progress">
+							<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%;"> <span class="sr-only">30% Complete</span> </div>
+						</div>
+						<br />
+						<!-- Upload Finished -->
+						<div class="js-upload-finished">
+							<h4>Upload history</h4>
+							<div class="list-group"> 
+							<a href="#" class="list-group-item list-group-item-danger"><span class="badge alert-danger pull-right">23-11-2014</span>amended-catalogue-01.xls</a> 
+							<a href="#" class="list-group-item list-group-item-success"><span class="badge alert-success pull-right">23-11-2014</span>amended-catalogue-01.xls</a> 
+							
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,129 @@
+/*table layout - last column*/
+table tr td:last-child {
+    white-space: nowrap;
+    width: 1px;
+    text-align:right;
+}
+
+/* layout.css Style */
+.upload-drop-zone {
+  height: 200px;
+  border-width: 2px;
+  margin-bottom: 20px;
+}
+
+/* skin.css Style*/
+.upload-drop-zone {
+  color: #ccc;
+  border-style: dashed;
+  border-color: #ccc;
+  line-height: 200px;
+  text-align: center
+}
+.upload-drop-zone.drop {
+  color: #222;
+  border-color: #222;
+}
+
+
+
+.image-preview-input {
+    position: relative;
+    overflow: hidden;
+	margin: 0px;    
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;    
+}
+.image-preview-input input[type=file] {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+.image-preview-input-title {
+    margin-left:2px;
+}
+
+#header{
+  float: bottom;
+}
+
+.nonedis{
+  margin:0%;
+  padding: 0%;
+}
+
+#navadd{
+  border-radius: 0px;
+  height: auto;
+  margin-top: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  
+}
+#navadd1{
+  border-radius: 0px;
+  height: auto;
+  margin-top: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  background-color: black;
+}
+  #header{
+    
+    background-color: black;
+    margin: auto;
+    width: 100%;
+    border-radius: 0px ! important;
+  }
+#bellow1{
+  background-color: black;
+    height: 100%;
+    margin: 0;
+    margin-top: -3px;
+    z-index: 2;
+  }
+
+  #bellow2{
+    padding-left: 8%;
+    height: auto;
+    margin: 0;
+  }
+#headerIcon{
+  padding-left: 9%;
+}
+ #tribeo{
+  border-radius: 5px;
+  margin-top: 1%;
+}
+
+#search{
+  width: 30%;
+  display: inline-table;
+  margin-top: 1%;
+}
+#search1{
+  width: 70%;
+  display: inline-table;
+  margin-top: 1%;
+}
+.stylish-input-group .input-group-addon{
+    background: white !important; 
+}
+.stylish-input-group .form-control{
+  border-right:0; 
+  box-shadow:0 0 0; 
+  border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
