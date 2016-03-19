@@ -1,10 +1,8 @@
-/***
-Login page
-***/
+
 
 /* logo page */
 .login {
-  background-color: #666 !important;
+  background-color: #507D96;
 }
 
 .login .logo {
@@ -110,6 +108,7 @@ Login page
   border-top: 1px dotted #eee;
   padding-top: 10px;
   margin-top: 15px;
+
 }
 
 .login .content .create-account a {
