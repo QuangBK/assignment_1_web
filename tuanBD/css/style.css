@@ -7,6 +7,7 @@
 body{
 	 font-family: 'Lato',arial,sans-serif;
 	 width: 100%;
+   background-color: #eeeeee;
 }
 #navadd{
 	border-radius: 0px;
@@ -104,7 +105,7 @@ body{
 #footer{
 	border-top: 3px;
   	border-top-style: solid;
-  	border-top-color: #F3E5E5;
+  	border-top-color: white;
   	margin-top: 1%;
   	height: 45%;
   	background-color: #efefef;

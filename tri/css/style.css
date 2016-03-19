@@ -6,8 +6,13 @@ body {
 .progress {
 	/*border: 1px solid black;*/
 	margin-bottom: 0;
-	height: 10px;
+	height: 6px;
 	border-radius: 0;
+	background-color: #4A3C3C;
+}
+
+.progress-bar{
+	background-color: #68EA4F;
 }
 
 .slide_control {
@@ -46,6 +51,10 @@ body {
 
 #slide-wrap {
 	border: 1px solid rgb(130, 130, 130);
+}
+
+#slide-wrap img {
+	width: 100%;
 }
 
 .thumbnail-custom {
@@ -93,6 +102,8 @@ body {
 	margin-left: 0;
 	margin-right: 0;
 	border: 1px solid #ddd;
+	border: 0px;
+
 }
 
 
@@ -123,9 +134,14 @@ body {
 
 
 #like-share {
-	margin: 20px;
+	margin: 0px;
 	margin-bottom: 50px;
+	
 }
+#like-share button {
+	
+}
+
 #like-share button {
 	background-color: #EEE;
 	border: 1px solid #3F62FF;
@@ -135,6 +151,11 @@ body {
 	width: 100px;
 	height: auto;
 	padding: 5px 10px;
+}
+
+#comment-list .list-group-item {
+	border-left: 0px;
+	border-right: 0px;
 }
 
 #comment-list .name {
@@ -162,7 +183,11 @@ body {
 }
 
 
-
+.wrap-slide-extra {
+	background-color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+}
 
 
 
