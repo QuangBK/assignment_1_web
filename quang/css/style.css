@@ -18,6 +18,13 @@
   z-index: 100;
   */
 }
+hr.catalog {
+  margin-top: 2px;
+  margin-bottom: 5px;
+  color: black;
+  border-color: black;
+  background-color: black;
+}
 #pHeader {
   color: red;
 }
@@ -31,8 +38,7 @@
   background-repeat: no-repeat;
 }
 #center {
-  border-left: 1px solid #D4BF6A;
-  border-right: 1px solid #D4BF6A;
+
 }
 #right {
   padding-left: 0px;
