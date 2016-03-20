@@ -15,7 +15,7 @@
 
 
 .login .content {
-  background: url(../../img/bg-white-lock.png) repeat;
+  background-color: #262626;
   width: 291px;
   margin: 0 auto; 
   margin-bottom: 0px;
@@ -142,7 +142,7 @@
   width: 270px;
   margin: 0 auto; 
   padding: 10px 10px 0 10px;
-  color: #eee;
+  color: #262626;
   font-size: 12px;
 }
 

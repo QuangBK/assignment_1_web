@@ -154,21 +154,10 @@ var Login = function () {
 	            ignore: "",
 	            rules: {
 	                
-	                fullname: {
-	                    required: true
-	                },
+	                
 	                email: {
 	                    required: true,
 	                    email: true
-	                },
-	                address: {
-	                    required: true
-	                },
-	                city: {
-	                    required: true
-	                },
-	                country: {
-	                    required: true
 	                },
 
 	                username: {
