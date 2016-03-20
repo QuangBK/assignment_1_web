@@ -193,7 +193,7 @@ body {
 
 #wrap-slide-extra {
 	background-color: white;
-	height: 150px;
+	/*height: 150px;*/
 }
 
 
@@ -254,12 +254,12 @@ body {
 #search{
 	width: 30%;
 	display: inline-table;
-	margin-top: 1%;
+	margin-top: 0.5%;
 }
 #search1{
 	width: 70%;
 	display: inline-table;
-	margin-top: 1%;
+	margin-top: 0.5%;
 }
 .stylish-input-group .input-group-addon{
     background: white !important; 
