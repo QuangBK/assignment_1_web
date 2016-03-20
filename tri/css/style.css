@@ -1,5 +1,8 @@
 body {
 	background-color: #EEEEEE;
+}
+
+.container {
 	padding-top: 120px;
 }
 
@@ -132,6 +135,11 @@ body {
     background-color: white;
 }
 
+#comment-wrap {
+	padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+}
 
 #like-share {
 	margin: 0px;
@@ -183,10 +191,9 @@ body {
 }
 
 
-.wrap-slide-extra {
+#wrap-slide-extra {
 	background-color: white;
-	padding-left: 20px;
-	padding-right: 20px;
+	height: 150px;
 }
 
 
