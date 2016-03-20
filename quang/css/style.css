@@ -67,7 +67,7 @@ body {
   width: 100%;
 }
 .title-temple {
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-family: "Georgia", cursive, sans-serif;
   font-size: 14px;
   font-weight: bold;
   margin-bottom: 0px;
@@ -77,6 +77,14 @@ body {
   font-family: "Comic Sans MS", cursive, sans-serif;
   font-size: 14px;
   margin-bottom: 5px;
+}
+.link-item {
+  text-decoration: none;
+  color: black;
+}
+.link-item:hover {
+  text-decoration: none;
+  color: black;
 }
 .info {
   color: #8C8C8C;
@@ -93,16 +101,13 @@ body {
   padding-right: 5px;
   padding-left: 5px;
 }
+
 .padding-item {
   border: 1px solid #CCC7B3;
   overflow:hidden;
   box-shadow: 2px 2px 1px #D5D5D5;
   border-radius: 10px;
   background-color: #D7D8D7;
-}
-.center-items{
-  padding-left: 150px;
-  padding-right: 150px;
 }
 .glyphicon-refresh-animate {
   font-size: 40px;
@@ -223,4 +228,24 @@ body {
 .nonedis{
   margin:0%;
   padding: 0%;
+}
+
+/* For mobile phones: */
+.center-items{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .center-items{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .center-items{
+    padding-left: 150px;
+    padding-right: 150px;
+  }
 }
