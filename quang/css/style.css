@@ -28,9 +28,6 @@ hr.catalog {
 #pHeader {
   color: red;
 }
-#search {
-  float: right;
-}
 #footer {
   color: white;
   background-image: url("images/footer.png");
