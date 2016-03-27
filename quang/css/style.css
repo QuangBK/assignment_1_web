@@ -246,3 +246,7 @@ body {
     padding-right: 150px;
   }
 }
+
+.clear{
+  clear: both;
+}
